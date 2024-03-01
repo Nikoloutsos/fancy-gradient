@@ -7,7 +7,7 @@ let package = Package(
     name: "FancyGradient",
     platforms: [.iOS(.v10)],
     products: [
-        .library(name: "FancyGradient", targets: ["FancyGradient"]),
+        .library(name: "FancyGradient", type: .dynamic, targets: ["FancyGradient"]),
     ],
     targets: [
         .target(name: "FancyGradient", dependencies: []),
